@@ -1,0 +1,73 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "forty seven forty thermy",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetCurrentTemperatureIntent",
+          "slots": [],
+          "samples": [
+            "tell me the current temperature",
+            "what temperature is it",
+            "what is the current temp",
+            "what is the temperature",
+            "What is the current temperature"
+          ]
+        },
+        {
+          "name": "GetSetPointIntent",
+          "slots": [],
+          "samples": [
+            "thermy what is the setpoint",
+            "what is the setpoint"
+          ]
+        },
+        {
+          "name": "ChangeSetPointIntent",
+          "slots": [
+            {
+              "name": "numberAnswer",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "set the setpoint to {numberAnswer}",
+            "thermy make the setpoint {numberAnswer}",
+            "make the setpoint {numberAnswer}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
